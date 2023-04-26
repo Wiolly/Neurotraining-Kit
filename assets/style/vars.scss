@@ -1,0 +1,38 @@
+$font: "Blogger Sans", sans-serif;
+$button-color: #f07fae;
+$nav-color: #ffc480;
+
+@mixin headerfont1 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  color: #333333;
+}
+
+@mixin headerfont2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@mixin textfont1 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+}
+
+@mixin textfont2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@mixin textfont3 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  color: #707070;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+      }
+
+      .cards__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+        max-width: 270px;
+        border: 1px solid #eeeeee;
+        border-radius: 10px;
+        padding: 47px 20px 20px;
+      }
+
+      .cards__img {
+        max-width: 100%;
+        max-height: 150px;
+        object-fit: contain;
+      }
+
+      .cards__title {
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1;
+        color: #333333;
+        margin: 48px 0 0;
+      }
+
+      .cards__description {
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.12;
+        color: #707070;
+        margin: 10px 0 7px;
+      }
+
+      .buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 15px;
+      }
+
+      .buy__price_type_new {
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0.9;
+        color: #333333;
+        margin: 0 0 2px;
+      }
+
+      .buy__price_type_old {
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.12;
+        text-decoration-line: line-through;
+        color: #707070;
+        margin: 0;
+      }
+
+      .buy__form {
+        display: flex;
+        border: 1px solid #dfdfdf;
+        border-radius: 5px;
+      }
+
+      .buy__form-input {
+        max-width: 60px;
+        padding: 16px 14px;
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.3;
+        color: #707070;
+        border: none;
+      }
+
+      /* не доделано, надо подумать */
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        opacity: 0.2;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        bottom: 10px;
+        background-color: white;
+        border-left: #333333 1px;
+      }
+
+      .buy__form-btn {
+        padding: 16px 14px;
+        background-color: #f07fae;
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.12;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        transition: 0.6s;
+      }
+
+      .buy__form-btn:hover {
+        opacity: 0.6;
+      }
+
+      .cards__btn {
+        font-family: "Blogger Sans", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.12;
+        color: #333333;
+        padding: 11px 77px;
+        background-color: inherit;
+        border: 1px solid #dfdfdf;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.6s;
+      }
+
+      .cards__btn:hover {
+        transform: scale(1.2);
+      }
+    </style>
+    <ul class="cards">
+      <li class="cards__item">
+        <img src="././desk-img.png" alt="Доска Бильгоу" class="cards__img" />
+        <h3 class="cards__title">Доска Бильгоу для мозжечковой стимуляции</h3>
+        <p class="cards__description">Тренажеров для мозжечковой стимуляции.</p>
+        <div class="buy">
+          <div class="buy__price">
+            <p class="buy__price buy__price_type_new">2 490 p.</p>
+            <p class="buy__price buy__price_type_old">3 470 p.</p>
+          </div>
+          <div class="buy__form">
+            <input class="buy__form-input" type="number" min="1" value="1" />
+            <button class="buy__form-btn">Купить</button>
+          </div>
+        </div>
+        <button class="cards__btn" type="button">Подробнее</button>
+      </li>
+      <li class="cards__item">
+        <img src="././balls-img.png" alt="Набор мячей" class="cards__img" />
+        <h3 class="cards__title">Набор мячей с фиксацией на одежде</h3>
+        <p class="cards__description">Тренажеров для мозжечковой стимуляции.</p>
+        <div class="buy">
+          <div class="buy__price">
+            <p class="buy__price buy__price_type_new">650 р.</p>
+            <p class="buy__price buy__price_type_old">935 p.</p>
+          </div>
+          <div class="buy__form">
+            <input class="buy__form-input" type="number" min="1" value="1" />
+            <button class="buy__form-btn">Купить</button>
+          </div>
+        </div>
+        <button class="cards__btn" type="button">Подробнее</button>
+      </li>
+      <li class="cards__item">
+        <img
+          src="././target-img.png"
+          alt="Мишень напольная"
+          class="cards__img"
+        />
+        <h3 class="cards__title">Мишень напольная цветная</h3>
+        <p class="cards__description">Тренажеров для мозжечковой стимуляции.</p>
+        <div class="buy">
+          <div class="buy__price">
+            <p class="buy__price buy__price_type_new">1 590 р.</p>
+            <p class="buy__price buy__price_type_old">2 000 p.</p>
+          </div>
+          <div class="buy__form">
+            <input class="buy__form-input" type="number" min="1" value="1" />
+            <button class="buy__form-btn">Купить</button>
+          </div>
+        </div>
+        <button class="cards__btn" type="button">Подробнее</button>
+      </li>
+      <li class="cards__item">
+        <img
+          src="././bag-img.png"
+          alt="Сумка для тренажеров Бильгоу"
+          class="cards__img"
+        />
+        <h3 class="cards__title">Сумка для тренажеров Бильгоу</h3>
+        <p class="cards__description">Тренажеров для мозжечковой стимуляции.</p>
+        <div class="buy">
+          <div class="buy__price">
+            <p class="buy__price buy__price_type_new">2 490 р.</p>
+            <p class="buy__price buy__price_type_old">3 000 p.</p>
+          </div>
+          <div class="buy__form">
+            <input class="buy__form-input" type="number" min="1" value="1" />
+            <button class="buy__form-btn">Купить</button>
+          </div>
+        </div>
+        <button class="cards__btn" type="button">Подробнее</button>
+      </li>
+    </ul>
+  </body>
+</html>

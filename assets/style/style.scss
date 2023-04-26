@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Blogger Sans";
+  src: url("../font/Blogger_Sans.otf");
+}
+
+@import "./vars.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+h1 {
+  @include headerfont1;
+}
