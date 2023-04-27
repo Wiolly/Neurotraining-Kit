@@ -2,37 +2,178 @@ $font: "Blogger Sans", sans-serif;
 $button-color: #f07fae;
 $nav-color: #ffc480;
 
-@mixin headerfont1 {
+@mixin headerfont1-1 {
   font-family: $font;
   font-style: normal;
   font-weight: 700;
+  font-size: 50px;
   color: #333333;
 }
 
-@mixin headerfont2 {
+@mixin headerfont1-2 {
   font-family: $font;
   font-style: normal;
   font-weight: 700;
-  color: #ffffff;
-}
-
-@mixin textfont1 {
-  font-family: $font;
-  font-style: normal;
-  font-weight: 400;
+  font-size: 30px;
   color: #333333;
 }
 
-@mixin textfont2 {
+@mixin headerfont1-3 {
   font-family: $font;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 22px;
+  color: #333333;
+}
+
+@mixin headerfont1-4 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+
+@mixin headerfont1-5 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+@mixin headerfont1-6 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333;
+}
+
+@mixin headerfont1-7 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #333333;
+}
+
+@mixin headerfont2-1 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
   color: #ffffff;
 }
 
-@mixin textfont3 {
+@mixin headerfont2-2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+@mixin headerfont2-3 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+@mixin headerfont2-4 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@mixin headerfont2-5 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@mixin headerfont2-6 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@mixin textfont1-1 {
   font-family: $font;
   font-style: normal;
   font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+
+@mixin textfont1-2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+
+@mixin textfont1-3 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+@mixin textfont2-1 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@mixin textfont2-2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@mixin textfont2-3 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@mixin textfont3-1 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+
+@mixin textfont3-2 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #707070;
+}
+
+@mixin textfont3-3 {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   color: #707070;
 }
