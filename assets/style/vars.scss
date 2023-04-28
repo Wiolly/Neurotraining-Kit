@@ -36,3 +36,9 @@ $nav-color: #ffc480;
   font-weight: 400;
   color: #707070;
 }
+
+@mixin buttonfont {
+  font-family: $font;
+  font-style: normal;
+  font-weight: 500;
+}
