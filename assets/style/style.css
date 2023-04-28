@@ -13,21 +13,19 @@
   width: 100%;
 }
 
-main {
-  max-width: 1170px;
-  width: 100%;
-}
-main .text-page {
+.text-page {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
-main .text-page__container {
+
+.text-page__container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
-main .text-page__name {
+
+.text-page__name {
   margin: 0;
   padding-top: 55px;
   padding-bottom: 28px;
@@ -39,7 +37,8 @@ main .text-page__name {
   font-size: 50px;
   color: #333333;
 }
-main .text-page__main-btn {
+
+.text-page__main-btn {
   width: 147px;
   height: 26px;
   background: #ffc480;
@@ -53,7 +52,8 @@ main .text-page__main-btn {
   font-weight: 500;
   color: #eeeeee;
 }
-main .text-page__text-btn {
+
+.text-page__text-btn {
   width: 158px;
   height: 26px;
   border: 1px solid #eeeeee;
@@ -68,7 +68,8 @@ main .text-page__text-btn {
   font-weight: 500;
   background-color: #eeeeee;
 }
-main .text-page__name2 {
+
+.text-page__name2 {
   padding-top: 50px;
   padding-bottom: 22px;
   font-size: 30px;
@@ -79,18 +80,19 @@ main .text-page__name2 {
   font-size: 50px;
   color: #333333;
 }
-main .about {
+
+.about {
   min-height: 316px;
   margin-bottom: 24px;
   max-width: 1170px;
   width: 100%;
 }
-main .about .about__image {
+.about .about__image {
   float: left;
   margin: 0 30px 0 0;
   max-width: 40%;
 }
-main .about .about__main-text {
+.about .about__main-text {
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -100,7 +102,7 @@ main .about .about__main-text {
   line-height: 23px;
   padding-bottom: 23px;
 }
-main .about .about__descr-1 {
+.about .about__descr-1 {
   font-size: 18px;
   line-height: 23px;
   padding-bottom: 23px;
@@ -110,7 +112,7 @@ main .about .about__descr-1 {
   font-size: 18px;
   color: #333333;
 }
-main .about .about-result {
+.about .about-result {
   padding-left: 15px;
   font-size: 18px;
   line-height: 35px;
@@ -120,10 +122,11 @@ main .about .about-result {
   font-size: 18px;
   color: #333333;
 }
-main .about .about-result .about__list::marker {
+.about .about-result .about__list::marker {
   color: #f07fae;
 }
-main .about__descr-2 {
+
+.about__descr-2 {
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -133,29 +136,30 @@ main .about__descr-2 {
   line-height: 23px;
   color: #333333;
 }
-main .text-page__list-cards {
+
+.text-page__list-cards {
   display: flex;
   -moz-column-gap: 29px;
        column-gap: 29px;
   max-width: 1170px;
   width: 100%;
 }
-main .text-page__list-cards .cards {
+.text-page__list-cards .cards {
   display: flex;
   flex-direction: column;
   max-width: 270px;
   min-height: 375px;
   width: 100%;
 }
-main .text-page__list-cards .cards .cards__wr-img {
+.text-page__list-cards .cards .cards__wr-img {
   max-width: 270px;
   width: 100%;
 }
-main .text-page__list-cards .cards .cards__wr-img .cards__image {
+.text-page__list-cards .cards .cards__wr-img .cards__image {
   border-radius: 10px;
   width: 100%;
 }
-main .text-page__list-cards .cards .cards__title {
+.text-page__list-cards .cards .cards__title {
   padding-top: 25px;
   padding-bottom: 10px;
   font-family: "Blogger Sans", sans-serif;
@@ -166,7 +170,7 @@ main .text-page__list-cards .cards .cards__title {
   font-size: 18px;
   line-height: 18px;
 }
-main .text-page__list-cards .cards .cards__text-descr {
+.text-page__list-cards .cards .cards__text-descr {
   padding-bottom: 52px;
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
@@ -176,17 +180,18 @@ main .text-page__list-cards .cards .cards__text-descr {
   font-size: 16px;
   line-height: 18px;
 }
-main .contacts {
+
+.contacts {
   display: flex;
   max-width: 1170px;
   width: 100%;
   padding-bottom: 80px;
 }
-main .contacts .contacts__info {
+.contacts .contacts__info {
   max-width: 399px;
   width: 100%;
 }
-main .contacts .contacts__info .contacts__text {
+.contacts .contacts__info .contacts__text {
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -196,11 +201,11 @@ main .contacts .contacts__info .contacts__text {
   line-height: 18px;
   padding-bottom: 16px;
 }
-main .contacts .contacts__info .contacts__phone-number {
+.contacts .contacts__info .contacts__phone-number {
   display: flex;
   padding-bottom: 19px;
 }
-main .contacts .contacts__info .contacts__phone-number .contacts__number {
+.contacts .contacts__info .contacts__phone-number .contacts__number {
   padding-left: 10px;
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
@@ -211,11 +216,11 @@ main .contacts .contacts__info .contacts__phone-number .contacts__number {
   line-height: 18px;
   cursor: pointer;
 }
-main .contacts .contacts__info .contacts__wrapper-email {
+.contacts .contacts__info .contacts__wrapper-email {
   display: flex;
   padding-bottom: 26px;
 }
-main .contacts .contacts__info .contacts__wrapper-email .contacts__email {
+.contacts .contacts__info .contacts__wrapper-email .contacts__email {
   padding-left: 10px;
   font-family: "Blogger Sans", sans-serif;
   font-style: normal;
@@ -225,37 +230,38 @@ main .contacts .contacts__info .contacts__wrapper-email .contacts__email {
   font-size: 18px;
   line-height: 18px;
 }
-main .contacts .contacts__info .contacts__social-media {
+.contacts .contacts__info .contacts__social-media {
   display: flex;
 }
-main .contacts .contacts__info .contacts__social-media .contacts__vk {
+.contacts .contacts__info .contacts__social-media .contacts__vk {
   height: 11.5px;
 }
-main .contacts .contacts__info .contacts__social-media .contacts__insagram {
+.contacts .contacts__info .contacts__social-media .contacts__insagram {
   padding-left: 19px;
 }
-main .contacts .contacts__info .contacts__social-media .contacts__whatsapp {
+.contacts .contacts__info .contacts__social-media .contacts__whatsapp {
   padding-left: 20.07px;
   height: 16px;
 }
-main .contacts .contacts__map {
+.contacts .contacts__map {
   max-width: 770px;
   width: 100%;
   padding-left: 29.68px;
 }
-main .contacts .contacts__map .contacts__image-map {
+.contacts .contacts__map .contacts__image-map {
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
-  main .text-page {
+  .text-page {
     max-width: 768px;
     width: 100%;
   }
-  main .text-page__container {
+  .text-page__container {
     max-width: 725px;
     width: 100%;
   }
-  main .text-page__name {
+  .text-page__name {
     padding-bottom: 15px;
     margin: 0;
     padding-top: 38px;
@@ -263,127 +269,127 @@ main .contacts .contacts__map .contacts__image-map {
     font-size: 30px;
     line-height: 18px;
   }
-  main .text-page__name2 {
+  .text-page__name2 {
     padding-top: 33px;
     padding-bottom: 20px;
     font-size: 25px;
   }
-  main .about {
+  .about {
     min-height: 151px;
     margin-bottom: 9px;
   }
-  main .about .about__image {
+  .about .about__image {
     margin: 0 25px 0 0;
   }
-  main .about .about__main-text {
+  .about .about__main-text {
     padding-bottom: 2px;
   }
-  main .text-page__list-cards {
+  .text-page__list-cards {
     -moz-column-gap: 26px;
          column-gap: 26px;
   }
-  main .text-page__list-cards .cards {
+  .text-page__list-cards .cards {
     max-width: 224px;
     width: 100%;
     min-height: 170px;
   }
-  main .text-page__list-cards .cards:nth-of-type(4) {
+  .text-page__list-cards .cards:nth-of-type(4) {
     display: none;
   }
-  main .contacts__map {
+  .contacts__map {
     display: none;
   }
 }
 @media screen and (max-width: 320px) {
-  main .text-page {
+  .text-page {
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
   }
-  main .text-page__container {
+  .text-page__container {
     max-width: 289px;
     width: 100%;
     margin: 0 auto;
   }
-  main .text-page__name {
+  .text-page__name {
     padding-top: 30px;
     padding-bottom: 7px;
     font-size: 22px;
     line-height: 18px;
   }
-  main .text-page__main-btn {
+  .text-page__main-btn {
     width: 113px;
     height: 20px;
     font-size: 12px;
   }
-  main .text-page__text-btn {
+  .text-page__text-btn {
     width: 122px;
     height: 20px;
     font-size: 12px;
     margin-left: 5px;
     background-color: white;
   }
-  main .text-page__name2 {
+  .text-page__name2 {
     padding-top: 20px;
     padding-bottom: 12px;
     font-size: 20px;
   }
-  main .about .about__image {
+  .about .about__image {
     max-width: 289px;
     min-height: 194px;
     padding-bottom: 10px;
   }
-  main .about .about__main-text {
+  .about .about__main-text {
     padding-bottom: 20px;
     font-size: 16px;
     line-height: 20px;
   }
-  main .about .about__descr-1 {
+  .about .about__descr-1 {
     font-size: 16px;
     line-height: 20px;
   }
-  main .about .about-result {
+  .about .about-result {
     display: none;
   }
-  main .wrapper__descr-2 {
+  .wrapper__descr-2 {
     display: none;
   }
-  main .text-page__list-cards {
+  .text-page__list-cards {
     -moz-column-gap: 10px;
          column-gap: 10px;
   }
-  main .text-page__list-cards .cards {
+  .text-page__list-cards .cards {
     max-width: 140px;
     width: 100%;
     min-height: 106px;
   }
-  main .text-page__list-cards .cards .cards__title {
+  .text-page__list-cards .cards .cards__title {
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 16px;
   }
-  main .text-page__list-cards .cards .cards__text-descr {
+  .text-page__list-cards .cards .cards__text-descr {
     padding-bottom: 25px;
     font-size: 15px;
     line-height: 16px;
   }
-  main .text-page__list-cards .cards:nth-of-type(3) {
+  .text-page__list-cards .cards:nth-of-type(3) {
     display: none;
   }
-  main .contacts {
+  .contacts {
     display: block;
   }
-  main .contacts .contacts__info {
+  .contacts .contacts__info {
     padding-bottom: 16px;
   }
-  main .contacts .contacts__map {
+  .contacts .contacts__map {
     max-width: 289px;
     width: 100%;
     min-height: 230px;
     height: 100%;
     display: block;
   }
-  main .contacts .contacts__map .contacts__image-map {
+  .contacts .contacts__map .contacts__image-map {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
