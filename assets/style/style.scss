@@ -141,6 +141,7 @@
             .slides__box-link {
               @include headerfont2-5;
               text-decoration-line: underline;
+              cursor: pointer;
             }
           }
         }
@@ -149,8 +150,6 @@
         .main__cards-title {
           @include headerfont1-2;
           margin-bottom: 3vh;
-        }
-        .main__cards-box {
         }
       }
     }
@@ -170,7 +169,7 @@
       max-width: 270px;
       border: 1px solid #eeeeee;
       border-radius: 10px;
-      padding: 47px 20px 20px;
+      padding: 7vh 3vh 3vw;
 
       .cards__img {
         max-width: 100%;
@@ -248,8 +247,28 @@
     .buy__form-btn:hover {
       opacity: 0.6;
     }
-    .slides__board-btn:hover {
-      transform: scale(1.2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .wrapper {
+      max-width: 725.13px;
+      width: 100%;
     }
+  }
+
+  .container .wrapper .main .main__slides {
+    flex-direction: column;
+  }
+  .container .wrapper .main .main__slides .slides__box-wrapper {
+    flex-direction: row;
+  }
+  .container .cards .cards__item-4 {
+    display: none;
   }
 }

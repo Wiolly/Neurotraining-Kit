@@ -149,6 +149,7 @@
   font-size: 16px;
   color: #ffffff;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 .container .wrapper .main .main__cards .main__cards-title {
   font-family: "Blogger Sans", sans-serif;
@@ -173,7 +174,7 @@
   max-width: 270px;
   border: 1px solid #eeeeee;
   border-radius: 10px;
-  padding: 47px 20px 20px;
+  padding: 7vh 3vh 3vw;
 }
 .container .cards .cards__item .cards__img {
   max-width: 100%;
@@ -269,6 +270,25 @@
 .container .cards .buy__form-btn:hover {
   opacity: 0.6;
 }
-.container .cards .slides__board-btn:hover {
-  transform: scale(1.2);
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container .wrapper {
+    max-width: 725.13px;
+    width: 100%;
+  }
+  .container .wrapper .main .main__slides {
+    flex-direction: column;
+  }
+  .container .wrapper .main .main__slides .slides__box-wrapper {
+    flex-direction: row;
+  }
+  .container .cards .cards__item-4 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
