@@ -1,9 +1,5 @@
-@font-face {
-  font-family: "Blogger Sans";
-  src: url("../font/Blogger_Sans.otf");
-}
-
-@import "./vars.scss";
+@import "./_fonts";
+@import "./_vars";
 
 * {
   margin: 0;
