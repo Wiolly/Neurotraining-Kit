@@ -22,20 +22,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Blogger Sans", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-.container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .text-page {
   max-width: 1440px;
   width: 100%;
@@ -415,72 +401,4 @@ ul {
   .contacts .contacts__map .contacts__image-map {
     width: 100%;
   }
-}
-.x-container {
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.nav {
-  display: flex;
-  gap: 18px;
-}
-.nav__link {
-  font-size: 14px;
-  line-height: 15px;
-  color: #707070;
-}
-
-.nav-social {
-  display: flex;
-  gap: 15px;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.header-info__contacts {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 308px;
-}
-.header-info__user-navigation {
-  display: flex;
-}
-
-.search-form {
-  max-width: 370px;
-  width: 100%;
-  position: relative;
-}
-.search-form__input {
-  padding-top: 18px;
-  padding-bottom: 14px;
-  padding-left: 19px;
-  width: 100%;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  border-radius: 10px;
-}
-.search-form__input::-moz-placeholder {
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
-}
-.search-form__input::placeholder {
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
-}
-.search-form__button {
-  position: absolute;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=about_us.css.map */
