@@ -28,14 +28,17 @@
         display: flex;
         flex-direction: row;
         gap: 2vw;
+        max-height: 530px;
+        height: 100%;
 
         .slides__board {
           background-image: url(../img/main/bgr_blue.png);
           max-width: 770px;
           width: 100%;
+          display: flex;
+          flex-direction: row;
           background-size: cover;
           border-radius: 10px;
-          position: relative;
           padding: 14vh 0;
 
           .slides__board-box {
@@ -58,7 +61,6 @@
             }
           }
           .slides__board-img {
-            position: absolute;
             max-width: 424.18px;
             width: 100%;
             right: -3%;
@@ -167,6 +169,7 @@
       justify-content: space-between;
       list-style: none;
       max-width: 270px;
+      width: 100%;
       border: 1px solid #eeeeee;
       border-radius: 10px;
       padding: 7vh 3vh 3vw;
@@ -270,5 +273,24 @@
   }
   .container .cards .cards__item-4 {
     display: none;
+  }
+  .container .wrapper .main .main__slides .slides__box-wrapper .slides__box {
+    width: 25vw;
+  }
+  .container
+    .wrapper
+    .main
+    .main__slides
+    .slides__box-wrapper
+    .slides__box-stand {
+    width: 50%;
+  }
+  .container
+    .wrapper
+    .main
+    .main__slides
+    .slides__box-wrapper
+    .slides__box-eight {
+    width: 50%;
   }
 }
