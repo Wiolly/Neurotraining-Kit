@@ -12,6 +12,9 @@ html {
 ul {
   list-style: none;
 }
+::-webkit-inner-spin-button {
+  opacity: 1;
+}
 .container {
   max-width: 1440px;
   width: 100%;
@@ -356,11 +359,9 @@ ul {
 
   gap: 30px;
   &__link {
-    font-size: 14px;
-    line-height: 15px;
+    @include textfont3-1;
     text-decoration: none;
 
-    color: #707070;
     &_active {
       text-decoration: underline;
       color: $button-color;
@@ -383,6 +384,7 @@ ul {
 }
 .header {
   padding-top: 23px;
+  padding-bottom: 47px;
 }
 
 .header-info {
@@ -428,7 +430,7 @@ ul {
     justify-content: end;
     gap: 20px;
   }
-  margin: 37px;
+  margin: 37px 0;
 }
 .search-form {
   max-width: 370px;
@@ -464,7 +466,7 @@ ul {
 .header-product {
   &__list {
     display: flex;
-    gap: 60px;
+    justify-content: space-around;
     padding-top: 26px;
 
     padding-bottom: 26px;
@@ -478,5 +480,50 @@ ul {
 
     line-height: 18px;
     text-decoration: none;
+  }
+}
+.breadcrumb {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 49px;
+
+  &__link {
+    display: inline-block;
+    @include buttonfont-2;
+    background: #ffc480;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px 15px 4px 15px;
+    &_active {
+      border: 1px solid #eeeeee;
+      background-color: white;
+      color: #707070;
+    }
+  }
+}
+.product-detail {
+  &__preview-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: vw(18);
+  }
+  &__pictures {
+    display: flex;
+    gap: vw(18);
+  }
+  &__pictures-main {
+    display: flex;
+    align-items: center;
+    padding-left: vw(52);
+    padding-right: vw(35);
+    background: #fdfdfd;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+  }
+  &__preview-pic {
+    background: #fdfdfd;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
   }
 }
