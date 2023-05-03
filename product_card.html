@@ -30,7 +30,7 @@
                 <a class="nav__link" href="#">каталог</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#">Покупателям</a>
+                <a class="nav__link nav__link_active" href="#">Покупателям</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#">Доставка и оплата</a>
@@ -70,23 +70,59 @@
                 placeholder="Что вы ищите?"
               />
               <button class="search-form__button">
-                <img src="./assets/img/icons/search.svg" alt="icon" />
+                <img
+                  class="search-form__icon"
+                  src="./assets/img/icons/search.svg"
+                  alt="icon"
+                />
               </button>
             </form>
             <div class="header-info__contacts">
               <div class="header-info__phone">
                 <img src="./assets/img/icons/phonepink.svg" alt="phonepink" />
-                <a href="tel:8800554897 ">8 (800) 55 48 97 </a>
+                <a class="header-info__mob" href="tel:8800554897 "
+                  >8 (800) 55 48 97
+                </a>
               </div>
-              <div class="header-info__mail">
+              <div class="header-info__mail-box">
                 <img src="./assets/img/icons/envelop.svg" alt="envelop" />
-                <a href="mailto:info@neyro-t.ru">info@neyro-t.ru</a>
+                <a class="header-info__mail" href="mailto:info@neyro-t.ru"
+                  >info@neyro-t.ru</a
+                >
               </div>
-              <p>Время работы: 07:00 - 19:00 по МСК</p>
+              <p class="header-info__schedule">
+                Время работы: 07:00 - 19:00 по МСК
+              </p>
             </div>
             <ul class="header-info__user-navigation">
               <li><img src="./assets/img/icons/usericin.svg" alt="icon" /></li>
               <li><img src="./assets/img/icons/cart.svg" alt="cart" /></li>
+            </ul>
+          </div>
+          <div class="header-product">
+            <ul class="header-product__list">
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#">
+                  Мозжечковая стимуляция</a
+                >
+              </li>
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#"
+                  >Межполушарные доски</a
+                >
+              </li>
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#">Нейрокосички</a>
+              </li>
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#">Балансиры</a>
+              </li>
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#">Нейровосьмерки</a>
+              </li>
+              <li class="header-product__item">
+                <a class="header-product__item-link" href="#">Разное</a>
+              </li>
             </ul>
           </div>
         </div>
