@@ -183,3 +183,14 @@ $nav-color: #ffc480;
   font-style: normal;
   font-weight: 500;
 }
+@mixin buttonfont-2 {
+  @include buttonfont;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+@function vw($size) {
+  $width: 1440;
+  $result: $size * 100 / $width;
+  @return $result * 1vw;
+}
