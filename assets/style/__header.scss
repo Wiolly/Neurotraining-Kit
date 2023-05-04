@@ -1,0 +1,69 @@
+@import "./_fonts";
+@import "./_vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.x-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  &__link {
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #707070;
+  }
+}
+.nav-social {
+  display: flex;
+  gap: 15px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 308px;
+  }
+  &__user-navigation {
+    display: flex;
+  }
+}
+.search-form {
+  max-width: 370px;
+  width: 100%;
+  position: relative;
+  &__input {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-left: 19px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    &::placeholder {
+      font-size: 16px;
+      line-height: 18px;
+      color: #707070;
+    }
+  }
+  &__button {
+    position: absolute;
+  }
+}
