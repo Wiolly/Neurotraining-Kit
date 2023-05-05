@@ -12,8 +12,6 @@
 }
 
 .container {
-  max-width: 1440px;
-  width: 100%;
   display: flex;
   justify-content: center;
 
@@ -24,7 +22,7 @@
 
     .main {
       .main__slides {
-        margin-bottom: 10vh;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: row;
         gap: 2vw;
@@ -39,6 +37,7 @@
           flex-direction: row;
           background-size: cover;
           border-radius: 10px;
+          justify-content: center;
 
           .slides__board-box {
             margin-left: 5vw;
@@ -139,7 +138,7 @@
         }
       }
       .main__cards {
-        margin-bottom: 78px;
+        margin-bottom: 5%;
         .main__cards-title {
           @include headerfont1-2;
           margin-bottom: 3vh;
@@ -242,8 +241,16 @@
       opacity: 0.6;
     }
   }
+  .cards__video-neuro {
+    max-width: 570px;
+    width: 100%;
+  }
+  .cards__box2 {
+    display: flex;
+    gap: 2vw;
+  }
   .main__about-us {
-    padding-top: 10vh;
+    padding-top: 5%;
     .main__cards-box {
       display: flex;
       flex-direction: row;
@@ -254,11 +261,12 @@
       .about-us__wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 1em;
         .about-us__box {
           display: flex;
           flex-direction: column;
-          gap: 9px;
+          gap: 0.5em;
+
           .about-us__header {
             @include headerfont1-4;
           }
@@ -275,15 +283,16 @@
           }
           .about-us__images {
             display: flex;
-            max-width: 143px;
+            max-width: 461px;
             width: 100%;
+            gap: 1rem;
           }
         }
       }
     }
   }
   .main__reviews {
-    padding-top: 10vh;
+    padding-top: 5%;
     .main__reviews-info {
       display: flex;
       flex-direction: row;
@@ -331,9 +340,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
+
     .wrapper {
-      max-width: 725.13px;
-      width: 100%;
+      max-width: none;
     }
   }
 
@@ -346,6 +356,10 @@
     gap: 3vw;
     max-width: none;
   }
+
+  .container .wrapper .main .main__slides .slides__board {
+    max-width: none;
+  }
   .container .cards .cards__item-4 {
     display: none;
   }
@@ -353,7 +367,20 @@
     width: 25vw;
   }
   .container .cards {
-    justify-content: center;
+    justify-content: start;
+  }
+  .container .cards .cards__item .cards__img {
+    padding: 10% 5%;
+  }
+  .container .cards .cards__item .cards__title {
+    margin: 0;
+  }
+
+  .container .cards .cards__item-2 {
+    display: none;
+  }
+  .reviews__box-anna {
+    display: none;
   }
 }
 
@@ -419,10 +446,37 @@
     .slides__board-title {
     font-size: 30px;
   }
+  .container .cards .cards__item .cards__img {
+    padding: 10% 5%;
+  }
+  .container .cards .cards__item .cards__title {
+    margin: 0;
+  }
+  .container .cards .cards__item {
+    padding: 0;
+  }
+
   .container .cards .cards__item-3 {
     display: none;
   }
   .container .cards .cards__item-4 {
+    display: none;
+  }
+  .container .main__about-us .main__cards-box {
+    flex-direction: column;
+  }
+  .cards__box0 {
+    flex-direction: column;
+  }
+  .cards__box2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reviews__box-anna {
+    display: none;
+  }
+  .review__box-video {
     display: none;
   }
 }
